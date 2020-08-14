@@ -9,10 +9,10 @@ jobs:
     steps:
       - checkout
       - run:
-        name: test
-        command: | 
-          - ls
-          - npm test
+          name: test
+          command: | 
+            - ls
+            - npm test
 
 workflows:
   heroku_deploy:
