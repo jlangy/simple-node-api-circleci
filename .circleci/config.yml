@@ -11,8 +11,8 @@ jobs:
       - run:
           name: test
           command: | 
-            - ls
-            - npm test
+            ls
+            npm test
 
 workflows:
   heroku_deploy:
