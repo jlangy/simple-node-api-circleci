@@ -11,7 +11,7 @@ jobs:
       - run:
           name: test
           command: | 
-            ls
+            npm i
             npm test
 
 workflows:
