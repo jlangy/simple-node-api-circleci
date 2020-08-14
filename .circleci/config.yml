@@ -8,7 +8,9 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
-      - run: npm test
+      - run: 
+        - ls
+        - npm test
 
 workflows:
   heroku_deploy:
