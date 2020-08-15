@@ -1,6 +1,5 @@
 {
   "name": "vue-electron-todolist-api",
-  "version": "1.0.0",
   "description": "A simple Nodejs API",
   "main": "server.js",
   "scripts": {
