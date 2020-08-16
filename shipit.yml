@@ -1,0 +1,14 @@
+
+dependencies:
+  pre:
+    - echo predeps
+  override:
+    - npm install
+
+deploy:
+  override:
+    - echo Hello!
+  # override:
+  #   - git submodule --quiet init
+  #   - git submodule --quiet update --remote
+  #   - make install
