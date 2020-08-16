@@ -18,6 +18,9 @@ workflows:
   heroku_deploy:
     jobs:
       - test
+          filters:
+            tags:
+              only: /.*/
       # - heroku/deploy-via-git:
       #     requires:
       #       - test
