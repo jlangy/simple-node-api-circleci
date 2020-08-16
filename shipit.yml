@@ -1,6 +1,6 @@
-deploy:
-  override:
-    - echo Hello!
+# deploy:
+#   override:
+#     - echo Hello!
   # override:
   #   - git submodule --quiet init
   #   - git submodule --quiet update --remote
